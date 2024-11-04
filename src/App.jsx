@@ -43,6 +43,8 @@ function App() {
         <Route path="/mhs/trivia-result" element={<Results />} />
         <Route path="/mhs/ptsd-result" element={<MhtResuPTSD />} />
 
+
+        {/* <Route path="trivia" element={<TriviaPage />} /> */}
   
         <Route path="*" element={<PageNotFound />} />
       </Routes>
