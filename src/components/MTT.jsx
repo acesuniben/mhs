@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Github, Linkedin, Twitter } from "lucide-react";
-import Team from "../assets/team1.png";
 import Sandra from "../assets/sandra.png";
 import Peter from "../assets/peter.png";
 import Catherine from "../assets/catherine.png";
@@ -88,7 +87,7 @@ function MTT() {
 
   const teamMembers = [
     {
-      name: "Catherine",
+      name: "Catherine Omegie",
       position: "MHS Writer",
       image: Catherine,
       social: {
@@ -97,7 +96,7 @@ function MTT() {
       },
     },
     {
-      name: "Joe",
+      name: "Umoru Festus",
       position: "MHS Designer",
       image: Joe,
       social: {
@@ -106,7 +105,7 @@ function MTT() {
       },
     },
     {
-      name: "Peter",
+      name: "Peter Isera",
       position: "MHS Designer",
       image: Peter,
       social: {
