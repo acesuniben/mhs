@@ -17,6 +17,7 @@ import Results from "./components/Results";
 import TakeTest from "./pages/TakeTest";
 import TakeQuiz from "./pages/TakeQuiz";
 import MHS from "./pages/More/MHS";
+import DownloadPage from "./pages/DownloadPage";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
         <Route path="/mhs/test" element={<TakeTest/>} />
         <Route path="/mhs/quiz" element={<TakeQuiz/>} />
         <Route path="/mhs/more/mhs" element={<MHS />} />
+        <Route path="/mhs/download" element={<DownloadPage />} />
+
         <Route
           path="/mhs/depression-result"
           element={<MhtResuDepression />}
