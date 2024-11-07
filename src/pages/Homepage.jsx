@@ -34,32 +34,32 @@ function Homepage() {
           Take a trivia quiz
         </h2>
         <ul className="flex flex-col lg:flex-row lg:flex-wrap justify-center gap-4 mx-auto w-3/4 max-w-2xl">
-          <Link to="/ACES-MHS/adhd">
+          <Link to="/mhs/adhd">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               ADHD
             </li>
           </Link>
-          <Link to="/ACES-MHS/anxiety">
+          <Link to="/mhs/anxiety">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Anxiety
             </li>
           </Link>
-          <Link to="/ACES-MHS/bipolar">
+          <Link to="/mhs/bipolar">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Bipolar
             </li>
           </Link>
-          <Link to="/ACES-MHS/depression">
+          <Link to="/mhs/depression">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Depression
             </li>
           </Link>
-          <Link to="/ACES-MHS/ptsd">
+          <Link to="/mhs/ptsd">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               PTSD
             </li>
           </Link>
-          <Link to="/ACES-MHS/trivia">
+          <Link to="/mhs/trivia">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Trivia
             </li>
