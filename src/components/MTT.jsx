@@ -9,6 +9,12 @@ import Catherine from "../assets/catherine.png";
 import Inuifak from "../assets/inuifak.png";
 import Eva from "../assets/eva.png";
 import Joe from "../assets/joe.jpg";
+import Daniella from "../assets/Daniella.jpg";
+import David from "../assets/David.jpg";
+import Daniel from "../assets/Daniel.jpg";
+import Sochu from "../assets/Sochu.jpg";
+import Kalmin from "../assets/Kalmin.jpg";
+import Peace from "../assets/Peace.jpg";
 
 const TeamMember = ({ name, position, image, social = {} }) => (
   <div className="mx-2 group">
@@ -127,10 +133,63 @@ function MTT() {
       },
     },
     {
-      name: "Iniufak",
       name: "Iniufak Moffat",
       position: "ACES Director of Welfare",
       image: Inuifak,
+      social: {
+        linkedin: "#",
+        twitter: "#",
+      },
+    },
+    {
+      name: "Daniella Ochade",
+      position: "Founder; ACES MHS",
+      image: Daniella,
+      social: {
+        linkedin: "#",
+        twitter: "#",
+      },
+    },
+    {
+      name: "David Onwuka",
+      position: "MHS Developer",
+      image: David,
+      social: {
+        linkedin: "#",
+        twitter: "#",
+      },
+    },
+    {
+      name: "Obuh Daniel",
+      position: "MHS Developer",
+      image: Daniel,
+      social: {
+        linkedin: "#",
+        twitter: "#",
+      },
+    },
+    {
+      name: "Ogboh Sochukwu",
+      position: "MHS Designer",
+      image: Sochu,
+      social: {
+        linkedin: "#",
+        twitter: "#",
+      },
+    },
+    {
+      name: "Peace Akhaze",
+      position: "MHS Developer",
+      image: Peace,
+      social: {
+        linkedin: "#",
+        twitter: "#",
+      },
+    },
+    {
+      name: "Numerous Oriabure",
+      position: "MHS Developer",
+      image: Kalmin,
       social: {
         linkedin: "#",
         twitter: "#",
