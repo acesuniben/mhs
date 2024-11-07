@@ -136,7 +136,7 @@ const TriviaPage = () => {
       setSelectedAnswer(answers[currentQuestionIndex + 1] || null);
       setFeedback(null);
     } else {
-      navigate("/ACES-MHS/trivia-result", { state: { answers } });
+      navigate("/mhs/trivia-result", { state: { answers } });
     }
   };
 

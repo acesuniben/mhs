@@ -117,7 +117,7 @@ function MTT() {
       },
     },
     {
-      name: "Inuifak",
+      name: "Iniufak",
       position: "ACES Director of Welfare",
       image: Inuifak,
       social: {
