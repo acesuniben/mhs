@@ -31,7 +31,7 @@ function Homepage() {
       </section>
       <section className="py-10 bg-white text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-          Take a trivia quiz
+          Take a test
         </h2>
         <ul className="flex flex-col lg:flex-row lg:flex-wrap justify-center gap-4 mx-auto w-3/4 max-w-2xl">
           <Link to="/mhs/adhd">

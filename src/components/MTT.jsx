@@ -8,6 +8,7 @@ import Peter from "../assets/peter.png";
 import Catherine from "../assets/catherine.png";
 import Inuifak from "../assets/inuifak.png";
 import Eva from "../assets/eva.png";
+import Joe from "../assets/joe.jpg";
 
 const TeamMember = ({ name, position, image, social = {} }) => (
   <div className="mx-2 group">
@@ -20,28 +21,37 @@ const TeamMember = ({ name, position, image, social = {} }) => (
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
       </div>
-      
+
       <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-full transition-transform duration-300 group-hover:translate-y-0">
         <div className="flex justify-center space-x-3">
           {social.linkedin && (
-            <a href={social.linkedin} className="text-white hover:text-blue-400 transition-colors">
+            <a
+              href={social.linkedin}
+              className="text-white hover:text-blue-400 transition-colors"
+            >
               <Linkedin className="w-5 h-5" />
             </a>
           )}
           {social.twitter && (
-            <a href={social.twitter} className="text-white hover:text-blue-400 transition-colors">
+            <a
+              href={social.twitter}
+              className="text-white hover:text-blue-400 transition-colors"
+            >
               <Twitter className="w-5 h-5" />
             </a>
           )}
           {social.github && (
-            <a href={social.github} className="text-white hover:text-blue-400 transition-colors">
+            <a
+              href={social.github}
+              className="text-white hover:text-blue-400 transition-colors"
+            >
               <Github className="w-5 h-5" />
             </a>
           )}
         </div>
       </div>
     </div>
-    
+
     <div className="mt-4 text-center">
       <h3 className="text-lg font-semibold text-gray-800 transition-colors duration-300 group-hover:text-blue-600">
         {name}
@@ -81,9 +91,9 @@ function MTT() {
       },
     },
     {
-      name: "John Deo",
+      name: "Joe",
       position: "MHS Designer",
-      image: Team,
+      image: Joe,
       social: {
         linkedin: "#",
         github: "#",
@@ -99,7 +109,7 @@ function MTT() {
       },
     },
     {
-      name: "Eva",
+      name: "Anagwonye Eva",
       position: "ACES Vice President",
       image: Eva,
       social: {
@@ -108,7 +118,7 @@ function MTT() {
       },
     },
     {
-      name: "Sandra",
+      name: "Esewi Sandra",
       position: "ACES Asst. SEC GEN",
       image: Sandra,
       social: {
@@ -117,7 +127,7 @@ function MTT() {
       },
     },
     {
-      name: "Inuifak",
+      name: "Iniufak Moffat",
       position: "ACES Director of Welfare",
       image: Inuifak,
       social: {
@@ -130,7 +140,6 @@ function MTT() {
   return (
     <div className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <Carousel
           swipeable={true}
           draggable={true}
