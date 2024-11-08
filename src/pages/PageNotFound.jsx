@@ -20,14 +20,14 @@ export default function PageNotFound() {
 
       <div className="space-y-4">
         <a
-          href="/ACES-MHS/test"
+          href="/mhs/test"
           className="block bg-blue-500 text-white py-2 px-6 rounded-full shadow hover:bg-blue-600 transition"
         >
           Take a Mental Health Test
         </a>
       
         <a
-          href="/ACES-MHS"
+          href="/mhs"
           className="block text-blue-500 underline hover:text-blue-700 transition"
         >
           Go Back to Home

@@ -117,7 +117,7 @@ const ADHD = () => {
       setSelectedOption(null); // Reset selected option for the next question
     } else {
       const scorerange = RangedFifty(score, 4, questions.length)
-      navigate("/ACES-MHS/adhd-result", { state: { scorerange } });
+      navigate("/mhs/adhd-result", { state: { scorerange } });
     }
   };
 

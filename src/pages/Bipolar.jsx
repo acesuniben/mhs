@@ -85,7 +85,7 @@ const Bipolar = () => {
       setSelectedOption(null); // Reset selected option for the next question
     } else {
       const scorerange = RangedFifty(score, 1, questions.length)
-      navigate("/ACES-MHS/bipolar-result", { state: { scorerange } });
+      navigate("/mhs/bipolar-result", { state: { scorerange } });
     }
   };
 

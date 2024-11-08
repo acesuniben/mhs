@@ -94,7 +94,7 @@ const Anxiety = () => {
       setSelectedOption(null); // Reset selected option for the next question
     } else {
       const scorerange = RangedFifty(score, 3, questions.length)
-      navigate("/ACES-MHS/anxiety-result", { state: { scorerange } });
+      navigate("/mhs/anxiety-result", { state: { scorerange } });
     }
   };
 

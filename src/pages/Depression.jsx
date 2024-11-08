@@ -126,7 +126,7 @@ const Depression = () => {
       setSelectedOption(null); // Reset selected option for the next question
     } else {
       const scorerange = RangedFifty(score, 3, questions.length)
-      navigate("/ACES-MHS/depression-result", { state: { scorerange } });
+      navigate("/mhs/depression-result", { state: { scorerange } });
     }
   };
 

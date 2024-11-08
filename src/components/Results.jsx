@@ -140,7 +140,7 @@ const Results = () => {
       <br />
       <br />
 
-      <Link className='bg-slate-200 p-2 rounded-md' to='/ACES-MHS/'>
+      <Link className='bg-slate-200 p-2 rounded-md' to='/mhs/'>
         End
       </Link>
     </div>

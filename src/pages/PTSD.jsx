@@ -55,7 +55,7 @@ const PTSD = () => {
       setSelectedOption(null); // Reset selected option for the next question
     } else {
       const scorerange = RangedFifty(score, 1, questions.length)
-      navigate("/ACES-MHS/ptsd-result", { state: { scorerange } });
+      navigate("/mhs/ptsd-result", { state: { scorerange } });
     }
   };
 

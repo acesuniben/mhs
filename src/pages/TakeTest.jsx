@@ -8,27 +8,27 @@ function TakeTest() {
         Take a Mental Health Test
       </h2>
       <ul className="flex flex-col gap-3 mx-auto w-full max-w-md">
-        <Link to="/ACES-MHS/adhd">
+        <Link to="/mhs/adhd">
           <li className="bg-gray-100 text-gray-700 py-3 rounded-md shadow hover:bg-gray-200 hover:scale-105 transition-transform duration-150 cursor-pointer">
             ADHD
           </li>
         </Link>
-        <Link to="/ACES-MHS/anxiety">
+        <Link to="/mhs/anxiety">
           <li className="bg-gray-100 text-gray-700 py-3 rounded-md shadow hover:bg-gray-200 hover:scale-105 transition-transform duration-150 cursor-pointer">
             Anxiety
           </li>
         </Link>
-        <Link to="/ACES-MHS/bipolar">
+        <Link to="/mhs/bipolar">
           <li className="bg-gray-100 text-gray-700 py-3 rounded-md shadow hover:bg-gray-200 hover:scale-105 transition-transform duration-150 cursor-pointer">
             Bipolar
           </li>
         </Link>
-        <Link to="/ACES-MHS/depression">
+        <Link to="/mhs/depression">
           <li className="bg-gray-100 text-gray-700 py-3 rounded-md shadow hover:bg-gray-200 hover:scale-105 transition-transform duration-150 cursor-pointer">
             Depression
           </li>
         </Link>
-        <Link to="/ACES-MHS/ptsd">
+        <Link to="/mhs/ptsd">
           <li className="bg-gray-100 text-gray-700 py-3 rounded-md shadow hover:bg-gray-200 hover:scale-105 transition-transform duration-150 cursor-pointer">
             PTSD
           </li>
