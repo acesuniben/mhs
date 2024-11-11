@@ -23,7 +23,7 @@ function Homepage() {
         </p>
 
         <a
-          href="#"
+          href="https://forms.gle/QMF9uHy9eBt6Uw556"
           className="inline-block px-6 py-3 bg-[#272EE5] text-white font-medium text-lg rounded-lg shadow-md hover:bg-[#1e22b5] transition-colors duration-200"
         >
           Let’s Talk
