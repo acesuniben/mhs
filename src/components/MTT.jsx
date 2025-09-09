@@ -115,7 +115,7 @@ function MTT() {
     },
     {
       name: "Anagwonye Eva",
-      position: "ACES Vice President",
+      position: "ACES Vice President 23/24",
       image: Eva,
       social: {
         linkedin: "#",
@@ -124,7 +124,7 @@ function MTT() {
     },
     {
       name: "Esewi Sandra",
-      position: "ACES Asst. SEC GEN",
+      position: "ACES Asst. SEC GEN 23/24",
       image: Sandra,
       social: {
         linkedin: "#",
@@ -133,7 +133,7 @@ function MTT() {
     },
     {
       name: "Iniufak Moffat",
-      position: "ACES Director of Welfare",
+      position: "ACES Director of Welfare 23/24",
       image: Inuifak,
       social: {
         linkedin: "#",
