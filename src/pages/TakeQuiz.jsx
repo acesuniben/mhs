@@ -9,7 +9,7 @@ function TakeQuiz() {
       </h2>
       <ul className="flex flex-col gap-3 mx-auto w-full max-w-md">
        
-        <Link to="/mhs/trivia">
+        <Link to="/trivia">
           <li className="bg-gray-100 text-gray-700 py-3 rounded-md shadow hover:bg-gray-200 hover:scale-105 transition-transform duration-150 cursor-pointer">
             Trivia
           </li>

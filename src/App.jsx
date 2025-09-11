@@ -16,35 +16,35 @@ import TriviaPage from "./pages/TriviaPage";
 import Results from "./components/Results";
 import TakeTest from "./pages/TakeTest";
 import TakeQuiz from "./pages/TakeQuiz";
-import MHS from "./pages/More/MHS";
+import MHS from "./pages/More";
 import DownloadPage from "./pages/DownloadPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/mhs" element={<Homepage />} />
-        <Route path="/mhs/adhd" element={<ADHD />} />
-        <Route path="/mhs/anxiety" element={<Anxiety />} />
-        <Route path="/mhs/bipolar" element={<Bipolar />} />
-        <Route path="/mhs/depression" element={<Depression />} />
-        <Route path="/mhs/trivia" element={<TriviaPage />} />
-        <Route path="/mhs/ptsd" element={<PTSD />} />
-        <Route path="/mhs/adhd-result" element={<MhtResult />} />
-        <Route path="/mhs/anxiety-result" element={<MhtResuAnxiety />} />
-        <Route path="/mhs/bipolar-result" element={<MhtResuBipolar />} />
-        <Route path="/mhs/test" element={<TakeTest/>} />
-        <Route path="/mhs/quiz" element={<TakeQuiz/>} />
-        <Route path="/mhs/more/mhs" element={<MHS />} />
-        <Route path="/mhs/download" element={<DownloadPage />} />
+        <Route path="" element={<Homepage />} />
+        <Route path="/adhd" element={<ADHD />} />
+        <Route path="/anxiety" element={<Anxiety />} />
+        <Route path="/bipolar" element={<Bipolar />} />
+        <Route path="/depression" element={<Depression />} />
+        <Route path="/trivia" element={<TriviaPage />} />
+        <Route path="/ptsd" element={<PTSD />} />
+        <Route path="/adhd-result" element={<MhtResult />} />
+        <Route path="/anxiety-result" element={<MhtResuAnxiety />} />
+        <Route path="/bipolar-result" element={<MhtResuBipolar />} />
+        <Route path="/test" element={<TakeTest/>} />
+        <Route path="/quiz" element={<TakeQuiz/>} />
+        <Route path="/more" element={<MHS />} />
+        <Route path="/download" element={<DownloadPage />} />
 
         <Route
-          path="/mhs/depression-result"
+          path="/depression-result"
           element={<MhtResuDepression />}
         />
-        <Route path="/mhs/trivia" element={<TriviaPage />} />
-        <Route path="/mhs/trivia-result" element={<Results />} />
-        <Route path="/mhs/ptsd-result" element={<MhtResuPTSD />} />
+        <Route path="/trivia" element={<TriviaPage />} />
+        <Route path="/trivia-result" element={<Results />} />
+        <Route path="/ptsd-result" element={<MhtResuPTSD />} />
 
 
         {/* <Route path="trivia" element={<TriviaPage />} /> */}

@@ -15,17 +15,17 @@ function PageNav() {
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center space-x-8">
-          <NavLink to="/mhs/" className="font-medium text-gray-700 hover:text-gray-900">
+          <NavLink to="/" className="font-medium text-gray-700 hover:text-gray-900">
             Home
           </NavLink>
-          <NavLink to="/mhs/" className="text-gray-600 hover:text-gray-900">
+          <NavLink to="/" className="text-gray-600 hover:text-gray-900">
             About
           </NavLink>
-          <NavLink to="/mhs/" className="text-gray-600 hover:text-gray-900">
+          <NavLink to="/" className="text-gray-600 hover:text-gray-900">
             Contact Us
           </NavLink>
           <a
-            href="/mhs/download"
+            href="/download"
             className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
           >
             Android
@@ -66,21 +66,21 @@ function PageNav() {
       {isMenuOpen && (
         <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-5 md:hidden flex flex-col space-y-4 text-center">
           <NavLink
-            to="/mhs/"
+            to="/"
             className="font-medium text-gray-700 hover:text-gray-900"
             onClick={() => setIsMenuOpen(false)}
           >
             Home
           </NavLink>
           <NavLink
-            to="/mhs/"
+            to="/"
             className="text-gray-600 hover:text-gray-900"
             onClick={() => setIsMenuOpen(false)}
           >
             About
           </NavLink>
           <NavLink
-            to="/mhs/"
+            to="/"
             className="text-gray-600 hover:text-gray-900"
             onClick={() => setIsMenuOpen(false)}
           >
@@ -88,7 +88,7 @@ function PageNav() {
           </NavLink>
           <div className="space-y-2">
             <a
-              href="/mhs/download"
+              href="/download"
               className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
             >
               Android

@@ -34,32 +34,32 @@ function Homepage() {
           Take a test
         </h2>
         <ul className="flex flex-col lg:flex-row lg:flex-wrap justify-center gap-4 mx-auto w-3/4 max-w-2xl">
-          <Link to="/mhs/adhd">
+          <Link to="/adhd">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               ADHD
             </li>
           </Link>
-          <Link to="/mhs/anxiety">
+          <Link to="/anxiety">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Anxiety
             </li>
           </Link>
-          <Link to="/mhs/bipolar">
+          <Link to="/bipolar">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Bipolar
             </li>
           </Link>
-          <Link to="/mhs/depression">
+          <Link to="/depression">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Depression
             </li>
           </Link>
-          <Link to="/mhs/ptsd">
+          <Link to="/ptsd">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               PTSD
             </li>
           </Link>
-          <Link to="/mhs/trivia">
+          <Link to="/trivia">
             <li className="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg shadow-sm hover:bg-gray-300 hover:scale-105 transition-transform duration-200 cursor-pointer text-center">
               Trivia
             </li>

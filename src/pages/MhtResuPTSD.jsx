@@ -28,7 +28,7 @@ const PTSDResult = () => {
         </div>
 
         <div className="flex space-x-4">
-          <Link to="/mhs/">
+          <Link to="/">
             <button
               onClick={() => navigate("/")}
               className="bg-gray-200 text-gray-700 py-2 px-6 rounded-md shadow hover:bg-gray-300 transition"
@@ -37,7 +37,7 @@ const PTSDResult = () => {
             </button>
           </Link>
 
-          <Link to="/mhs/ptsd">
+          <Link to="/ptsd">
             <button
               onClick={() => navigate("/")}
               className="bg-blue-600 text-white py-2 px-6 rounded-md shadow hover:bg-blue-700 transition"
