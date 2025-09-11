@@ -16,7 +16,7 @@ import TriviaPage from "./pages/TriviaPage";
 import Results from "./components/Results";
 import TakeTest from "./pages/TakeTest";
 import TakeQuiz from "./pages/TakeQuiz";
-import MHS from "./pages/More";
+import MHS from "./pages/More/MHS";
 import DownloadPage from "./pages/DownloadPage";
 
 function App() {
